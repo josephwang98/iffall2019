@@ -1,0 +1,47 @@
+header{
+	color: brown;
+	font-family: helvetica, sans-serif;
+}
+p{
+	margin-bottom: 60px;
+	font-family: helvetica, sans-serif;
+}
+.NamePV{
+	color: goldenrod;
+	font-family: helvetica, sans-serif;
+	font-weight: bold;
+	
+}
+.NameDB{
+	color: deepskyblue;
+	font-family: helvetica, sans-serif;
+	font-weight: bold;
+}
+.NameRS{
+	color: olive;
+	font-family: helvetica, sans-serif;
+	font-weight: bold;
+}
+.NameES{
+	color: darkslateblue;
+	font-family: helvetica, sans-serif;
+	font-weight: bold;
+}
+.NameWZ{
+	color: chocolate;
+	font-family: helvetica, sans-serif;
+	font-weight: bold;
+}
+.NameM{
+	color: crimson;
+	font-family: helvetica, sans-serif;
+	font-weight: bold;
+}
+.quote{
+	font-family: helvetica, sans-serif;
+	font-style: italic;
+}
+div{
+	font-family: helvetica, sans-serif;
+	margin-bottom: 15px;
+}
