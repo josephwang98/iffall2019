@@ -1,0 +1,23 @@
+header{
+	font-family: amador;
+	text-align: left;
+	color: red;
+	margin-top: 50px
+}
+
+section{
+	text-align: left;
+	color: crimson;
+	margin-left: 60px
+
+}
+
+body{
+	font-family: trebuchet ms;
+	background-color: black;
+	font-size: 20px
+}
+
+p{
+	margin-bottom: 40px
+}
