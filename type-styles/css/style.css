@@ -1,0 +1,90 @@
+html{
+	font-size: 20px;
+	font-family: cora, sans-serif;
+	margin-left: 20px
+}
+body{
+	margin-bottom: 100px;
+}
+h1{
+	font-family: cora, sans-serif;
+	font-size: 50px;
+}
+.Intro{
+	margin-bottom: 50px;
+}
+mark{
+	background-color: aqua;
+}
+
+h2{
+	font-family: cora, sans-serif;
+	font-size: 30px;
+	margin-bottom:20px;
+
+}
+
+h3{
+	font-family: cora, sans-serif;
+	font-size: 12px;
+	margin-bottom: 10px;
+	font-weight: 100
+}
+section{
+	margin-bottom: 60px;
+
+}
+p{
+	margin-top: 10px;
+
+}
+.fontweightnormal{
+	font-weight: normal;
+}
+.fontweightbold{
+	font-weight: bold;
+}
+.fontstylenormal{
+	font-style: normal;
+}
+.fontstyleitalic{
+	font-style: italic;
+}
+.letterspacingnormal{
+	letter-spacing: normal;
+}
+.letterspacingbig{
+	letter-spacing: .3em;
+}
+.letterspacingsmall{
+	letter-spacing: -.1em;
+}
+.texttransformnone{
+	text-transform: none;
+}
+.texttransformuppercase{
+	text-transform: uppercase;
+}
+.texttransformlowercase{
+	text-transform: lowercase;
+}
+.texttransformcapitalize{
+	text-transform: capitalize;
+}
+.textdecorationnone{
+	text-decoration: none;
+}
+.textdecorationunderline{
+	text-decoration: underline;
+}
+.textdecorationline-through{
+	text-decoration: line-through;
+}
+.textdecorationoverline{
+	text-decoration: overline;
+}
+
+
+
+
+
