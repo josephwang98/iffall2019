@@ -1,0 +1,48 @@
+html{
+	font-size: 20px;
+	font-family: cora, sans-serif;
+	margin-left: 20px;
+}
+
+header{
+	font-family: amador;
+	text-align: left;
+	color: red;
+	margin-top: 50px;
+	margin-left: 60px;
+}
+
+section{
+	text-align: left;
+	color: crimson;
+	margin-left: 60px;
+
+}
+
+body{
+	background-color: black;
+}
+
+p{
+	margin-bottom: 40px
+}
+
+.chorus{
+	font-weight: bold;
+}
+
+.verse{
+	font-style: italic;
+}
+
+.chorustitle{
+	font-size: 1.5em;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.versetitle{
+	font-size: 1.5em;
+	margin-bottom: 20px;
+	font-style: italic;
+}
