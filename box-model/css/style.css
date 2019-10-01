@@ -1,0 +1,25 @@
+body{
+	font: 'Archivo Narrow', sans-serif;
+}
+
+.intro{
+	background-color: blue;
+	background-position: center;
+}
+
+h1 {
+  font-size: 5em;
+  margin-bottom: 0;
+  text-align: center;
+  padding-top: 150px;
+  color: #999;
+}
+
+h2 {
+  font-size: 1.87em;
+  font-weight: bold;
+  padding-bottom: 180px;
+  text-align: center;
+  display: block;
+  color: #999;
+}
