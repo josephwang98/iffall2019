@@ -1,0 +1,45 @@
+.first aside{
+  float: right;
+}
+
+
+.second {
+  position: relative;
+}
+
+.second aside{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.third aside{
+  background-color: green;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+
+.fourth {
+  position: relative;
+}
+
+.fourth aside:first-of-type {
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -150px;
+  z-index: 1;
+}
+
+.fourth aside:last-of-type {
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -90px;
+  margin-left: -140px;
+}
