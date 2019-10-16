@@ -1,0 +1,378 @@
+body {
+				color: #333;
+				font-family: cora, sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			#main_content {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+			a#btn_facebook {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 15px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: rgb(0, 71, 179);
+				border: 2px solid rgb(0, 71, 179);
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_facebook:hover {
+				background-color: #fff;
+				border: 2px solid rgb(0, 71, 179);
+				color: rgb(0, 71, 179);
+			}
+
+			a#btn_amazon {
+				display: block;
+				width: 150px;
+				height: 150px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 50px;
+				padding-top: 30px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 80px;
+			}
+
+			a#btn_amazon:hover {
+				background-color: #fc9a18;
+				transition: all 2s ease;
+				transform: rotate(360deg);
+			}
+
+			a#btn_apple {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 17px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+			}
+
+			a#btn_apple:hover {
+				background-color: rgb(204, 204, 204);
+				box-shadow:  0px 3px 5px 0px rgba(50, 50, 50, 0.2);
+			}
+
+			a#btn_spotify {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 15px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: rgb(0, 230, 0);
+				border: 2px solid rgb(0, 230, 0);
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_spotify:hover {
+				background-color: rgb(0, 230, 0);
+				border: 2px solid rgb(0, 230, 0);
+				color: white;
+				transform: scale(1.5);
+			}
+
+
+			a#btn_lyft {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 15px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: rgb(204, 0, 153);
+				border: 2px solid rgb(204, 0, 153);
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_lyft:hover {
+				background-color: rgb(102, 0, 77);
+				border: 2px solid rgb(102, 0, 77);
+				color: white;
+				transform: scale(1.2) rotate(10deg);
+			}
+
+			a#btn_samsung {
+				display: inline-block;
+				height: 75px;
+				width: 225px;
+				box-sizing: border-box;
+				border-radius: 15px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 20px 40px 0 40px;
+				color: rgb(0, 71, 179);
+				font-size: 20px;
+				font-family: 'Open Sans', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_samsung:hover {
+				background-color: rgb(0, 71, 179);
+				border: 2px solid rgb(0, 71, 179);
+				color: #fff;
+}
+			a#btn_newyorker {
+  				  display: inline-block;
+				  margin:auto;
+				  margin-top: 100px;
+				  padding: 8px 16px;
+				  background-color: #fff;
+				  color: #000;
+				  font-family: adobe-caslon-pro, serif;
+				  font-weight: 400;
+				  font-style: normal;
+				  font-size: 20px;
+				  text-transform: uppercase;
+				  text-decoration: none;
+				  transition: all 0.3s ease;
+}
+
+				a#btn_newyorker:hover {
+				  color: #000;
+				  border-bottom: 3px dotted black;
+				}
+
+				a#btn_cola {
+					  display: inline-block;
+					  height: 152px;
+					  width: 152px;
+					  box-sizing: border-box;
+					  border-radius: 76px;
+					  margin: auto;
+					  margin-top: 50px;
+					  padding: 10px 0 0 0;
+					  background-color: #fff;
+					  color: #fff;
+					  font-size: 18px;
+					  font-family: 'Arial', sans-serif;
+					  font-weight: bold;
+				}
+
+				#btn_cola img {
+  					width:150px;
+  					margin-top:-11px;
+}
+
+				a#btn_cola:hover {
+					border: 2px solid rgb(255, 0, 0);
+				}
+
+				a#btn_tesla {
+					  display: inline-block;
+					  height: 160px;
+					  width: 160px;
+					  box-sizing: border-box;
+					  border-radius: 0px;
+					  margin: auto;
+					  margin-top: 50px;
+					  padding: 0 0 0 0;
+					  background-color: #fff;
+					  color: #fff;
+					  font-size: 18px;
+					  font-family: 'Arial', sans-serif;
+					  font-weight: bold;
+				}
+
+				#btn_tesla img {
+  					width:150px;
+  					height: 150px;}
+  					
+
+			    a#btn_tesla:hover {
+					border: 2px solid rgb(255, 0, 0);
+				}
+
+				a#btn_ideo {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 0px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: rgb(204, 204, 255);
+				border: 2px solid rgb(204, 204, 255);
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_ideo:hover {
+				background-color: #fff;
+				border: 2px solid rgb(204, 204, 255);
+				color: rgb(204, 204, 255);
+				transform: skew(-10deg);
+			}
+
+				a#btn_twitter {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 0px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 8px 40px 0 40px;
+				background-color: rgb(51, 204, 255);
+				border: 2px solid rgb(51, 204, 255);
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_twitter:hover {
+				background: rgba(0,0,0,0);
+				color: #3a7999;
+				box-shadow: inset 0 0 0 3px #3a7999;
+			}
+
+			a#btn_mk {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 0px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 8px 40px 0 40px;
+				background-color: rgb(0,0,0);
+				border: 2px solid rgb(0,0,0);
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_mk:hover {
+				border-radius: 15px;
+				background-color: grey;
+			}
+
+			a#btn_fitbit {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 20px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 8px 40px 0 40px;
+				background-color: rgb(179, 236, 255);
+				border: 2px solid rgb(179, 236, 255);
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_fitbit:hover {
+				background-color: rgb(80, 0, 77);
+				border: 2px solid rgb(80, 0, 77);
+				color: white;
+				transform: scale(1.2) rotate(10deg);
+			}
+
+				a#btn_harleydavidson {
+					  display: inline-block;
+					  height: 160px;
+					  width: 160px;
+					  box-sizing: border-box;
+					  border-radius: 0px;
+					  margin: auto;
+					  margin-top: 50px;
+					  padding: 0 0 0 0;
+					  background-color: #fff;
+					  color: #fff;
+					  font-size: 18px;
+					  font-family: 'Arial', sans-serif;
+					  font-weight: bold;
+				}
+
+				#btn_harleydavidson img {
+  					width:150px;
+  					height: 150px;}
+  					
+
+			    a#btn_harleydavidson:hover {
+					color: #000;
+				  border-bottom: 3px solid black;
+				}
+
+				a#btn_oldnavy {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 35px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 8px 40px 0 40px;
+				background-color: rgb(0, 0, 77);
+				border: 2px solid rgb(0, 0, 77);
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_oldnavy:hover {
+				background-color: rgb(153, 153, 255);
+				border: 2px solid rgb(153, 153, 255);
+				color: white;
+				transition: all 2s ease;
+				transform: rotate(360deg);
+			}
+
+
