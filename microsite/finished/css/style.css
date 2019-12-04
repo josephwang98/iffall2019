@@ -1,0 +1,304 @@
+body{
+	font-family: Helvetica, sans-serif;
+}
+
+h1{
+	padding-top: 50px;
+	padding-left: 40px;
+	font-size: 40pt;
+}
+
+ul{
+	padding-bottom: 50px;
+	padding-top: 0px;
+}
+
+li{
+	display: inline-block;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-left: 0px;
+}
+
+hr{
+	border-top: 5px solid;
+	margin-left: 40px;
+	margin-right: 60px;
+	margin-top: 0px;
+}
+
+.earlylife div img{
+	width: 320px;
+	height: 440px;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-bottom: 400px;
+	display: inline-block;
+	float: left;
+}
+
+.earlylife h2{
+	color: #ff0000;
+}
+
+.earlylife div{
+	width: 95%;
+	display: block;
+	text-align: left;
+}
+
+.nyc h2{
+	color: #ff6600;
+}
+
+.nyc div{
+	width: 95%;
+	display: block;
+	text-align: left;
+}
+
+.nyc div img:nth-of-type(1){
+	width: 300px;
+	height: 300px;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-bottom: 260px;
+	display: inline-block;
+	float: left;
+}
+
+.nyc div img:nth-of-type(2){
+	width: 300px;
+	height: 180px;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-bottom: 350px;
+	display: inline-block;
+	float: left;
+}
+
+.japan h2{
+	color: #00cc00;
+}
+
+.japan div{
+	width: 95%;
+	display: block;
+	text-align: left;
+}
+
+.japan div img:nth-of-type(1){
+	width: 240px;
+	height: 320px;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-bottom: 40px;
+	display: inline-block;
+	float: left;
+}
+
+.japan div img:nth-of-type(2){
+	width: 240px;
+	height: 320px;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-bottom: 80px;
+	display: inline-block;
+	float: left;
+}
+
+
+.meaning h2{
+	color: #0000ff;
+}
+
+.meaning div{
+	width: 95%;
+	display: block;
+	text-align: left;
+}
+
+.meaning div img{
+	width: 256px;
+	height: 192px;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-bottom: 290px;
+	display: inline-block;
+	float: left;
+}
+
+p{
+	font-size: 14pt;
+	line-height: 18pt;
+}
+
+ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+ul li:nth-of-type(1):hover a {
+  color: #ff0000;
+}
+
+ul li:nth-of-type(2):hover a {
+  color: #ff6600;
+}
+
+ul li:nth-of-type(3):hover a {
+	/*blue*/
+  color: #00cc00;
+}
+
+ul li:nth-of-type(4):hover a {
+	/*green*/
+  color: #0000ff;
+}
+
+ul li:nth-of-type(5):hover a {
+	/*yellow*/
+  color: #ffff00;
+}
+
+li a:visited {
+  color: black;
+}
+
+p{
+	font-family: Helvetica, sans-serif;
+}
+
+.earlylife .dot {
+  height: 150px;
+  width: 150px;
+  background-color: #ff0000;
+  border-radius: 50%;
+  display: inline-block;
+  float: right;
+  margin-right: 10px;
+  margin-top: -110px;
+}
+
+.earlylife .dot1 {
+  height: 150px;
+  width: 150px;
+  background-color: #ff0000;
+  border-radius: 50%;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.nyc .dot {
+  height: 150px;
+  width: 150px;
+  background-color: #ff6600;
+  border-radius: 50%;
+  display: inline-block;
+  float: right;
+  margin-right: 10px;
+  margin-top: -110px;
+}
+
+.nyc .dot1 {
+  height: 150px;
+  width: 150px;
+  background-color: #ff6600;
+  border-radius: 50%;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.japan .dot {
+  height: 150px;
+  width: 150px;
+  background-color: #00cc00;
+  border-radius: 50%;
+  display: inline-block;
+  float: right;
+  margin-right: 10px;
+  margin-top: -110px;
+}
+
+.japan .dot1 {
+  height: 150px;
+  width: 150px;
+  background-color: #00cc00;
+  border-radius: 50%;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.meaning .dot {
+  height: 150px;
+  width: 150px;
+  background-color: #0000ff;
+  border-radius: 50%;
+  display: inline-block;
+  float: right;
+  margin-right: 10px;
+  margin-top: -110px;
+}
+
+.meaning .dot1 {
+  height: 150px;
+  width: 150px;
+  background-color: #0000ff;
+  border-radius: 50%;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.gallery .dot {
+  height: 150px;
+  width: 150px;
+  background-color: #ffff00;
+  border-radius: 50%;
+  display: inline-block;
+  float: right;
+  margin-right: 10px;
+  margin-top: -110px;
+}
+
+.gallery .dot1 {
+  height: 150px;
+  width: 150px;
+  background-color: #ffff00;
+  border-radius: 50%;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.gallery .img ul{
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	padding-left: 40px;
+}
+
+.gallery .img li{
+  width: 33%;
+  height: 300px;
+  padding-right: 25px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.gallery .img li img{
+  height: 250px;
+  width: 400px;
+  float: left;
+  margin-right: 12px;
+}
